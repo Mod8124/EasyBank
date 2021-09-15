@@ -576,12 +576,13 @@ svg path:hover {
     }
 
     #cta h1 {
-        font-size: 2em;
+        font-size: 2.6em;
         width: 80%;
     }
 
     #cta p {
-        width:80%;
+        width:99%;
+        font-size: 1em;
     }
 
     #cta button {
