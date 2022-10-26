@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+@import url('./css/cta.css');
+@import url('./css/footer.css');
+@import url('./css/hero.css');
+@import url('./css/benefics.css');
+@import url('./css/article.css')

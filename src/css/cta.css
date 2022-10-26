@@ -1,0 +1,100 @@
+.part {
+    background-color: hsl(0, 0%, 98%);
+    width:100%;
+    display:grid;
+    grid-template-columns: 100%;
+}
+
+.cta {
+    width:90%;
+    order:2;
+    margin:0 auto;
+    align-self: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cta h1 {
+    font-size: 2.6em;
+    color:hsl(233, 26%, 24%);
+}
+
+.cta P {
+    color:hsl(233, 8%, 62%);
+    padding-top: 30px;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.cta button {
+    padding:15px 40px 15px 40px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 1em;
+    border:none;
+    color:hsl(0, 0%, 100%);
+    background: #F8FFE8;
+    background: linear-gradient(to right, hsl(136, 65%, 51%) 0%, hsl(192, 70%, 51%) 70%, hsl(192, 70%, 51%) 100%); 
+}
+
+.cta button:hover {
+    background: linear-gradient(to right, hsl(136, 65%, 70%) 0%, hsl(192, 70%, 71%) 70%, hsl(192, 70%, 61%) 100%);  
+}
+
+.phone {
+    background-image: url("../assets/images/bg-intro-mobile.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    max-height: 580px;
+}
+
+#phone {
+    width: 85%;
+    margin:0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#phone img {
+    width: 100%;
+    z-index: 3;
+    max-height: 800px;
+    max-width: 700px;   
+}
+
+@media screen and (min-width:710px) {
+    .cta {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .phone {
+        background-image: url("../assets/images/bg-intro-desktop.svg");
+        background-position:left; 
+        order:2;
+    }
+    .part {
+        grid-template-columns: 50% 50%;
+    }
+
+    #phone {
+        margin-left: 15%; 
+    }
+
+    #phone img {
+     margin-top: -120px;
+     margin-left: 90px; 
+    }
+
+    .cta {
+        width: 60%;
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: start;
+    }
+
+    
+}
+

@@ -1,0 +1,84 @@
+.articlesWrapper {
+    background-color: hsl(0, 0%, 98%) ;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.tittle {
+    flex:100%;
+    text-align: center;
+}
+
+.tittle h2 {
+    width: 80%;
+    margin:0 auto;
+    padding-top: 100px;
+    padding-bottom:40px;
+    color:hsl(233, 26%, 24%);
+    font-size: 2em;
+}
+
+.articles {
+    flex:100%;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.arti {
+    flex:1 auto;
+    max-width: 350px;
+    margin:0 auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.arti-container {
+    height: 200px;
+    width: 100%;
+}
+
+
+.arti-container img {
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.arti h6 {
+    padding-top: 30px;
+    color:hsl(233, 8%, 62%);
+    padding-bottom:20px;
+    width: 90%;
+    margin:0 auto;
+}
+
+.arti h3 {
+    width: 90%;
+    color:hsl(233, 26%, 24%);
+    margin:0 auto;
+    cursor: pointer;
+    transition:  all 0.5s ease-in-out;
+}
+
+.arti h3:hover {
+    color:hsl(136, 65%, 51%);
+}
+
+.arti p {
+    padding-top: 20px;
+    width: 90%;
+    margin:0 auto;
+    color:hsl(233, 8%, 62%);
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width:1500px) {
+    .tittle {
+        text-align: start;
+    }
+}
