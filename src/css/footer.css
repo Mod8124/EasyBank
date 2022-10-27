@@ -22,10 +22,6 @@ footer {
     text-align: center;
 }
 
-svg path {
-    transition: all 0.5s ease-in-out;
-}
-
 svg path:hover {
     cursor: pointer;
     fill: hsl(136, 65%, 51%);
@@ -54,6 +50,7 @@ svg path:hover {
     font-weight: 300;
     cursor: pointer;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .footer__links h4:hover {

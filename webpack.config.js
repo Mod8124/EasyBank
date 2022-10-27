@@ -6,7 +6,8 @@ module.exports = {
     entry:'./src/index.js',
     output:{
         path:path.resolve(__dirname, 'dist'),
-        filename:'main.js'
+        filename:'main.js',
+        assetModuleFilename:'[name][ext]'
     },
     module:{
         rules:[
@@ -31,7 +32,8 @@ module.exports = {
             title:'Easybank landing page',
             filename:'index.html',
             template:'./index.html',
-            favicon:'./public/bank.ico'
+            favicon:'./public/bank.ico',
+            hash:false
     })],
     
 }

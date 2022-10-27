@@ -37,6 +37,31 @@
     background-color: hsl(0, 0%, 100%);
 }
 
+.hidden.arti {
+    filter: blur(2px);
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 0.7s ease-in-out;
+}
+
+.hidden.arti:nth-child(2) {
+    transition: all 0.8s ease-in-out;
+}
+
+.hidden.arti:nth-child(3) {
+    transition: all 0.9s ease-in-out;
+}
+
+.hidden.arti:nth-child(4) {
+    transition: all 1s ease-in-out;
+}
+
+.show.arti {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+}
+
 .arti-container {
     height: 200px;
     width: 100%;

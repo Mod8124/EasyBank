@@ -1,10 +1,10 @@
 import './css.css';
 import { setImgs } from './helpers/Img';
-const hambu = document.querySelector('.hambu');
-const container = document.querySelector('.containerMobile');
-hambu.addEventListener('click', ()=> {
-    hambu.classList.toggle('active');
-    container.classList.toggle('active');
-
+import { hambu, toggleHambu } from './helpers/hambu';
+import { observer, hiddenElements } from './helpers/hiddenElements';
+hambu.addEventListener('click', toggleHambu);
+window.addEventListener('load', ()=> {
+    hiddenElements.forEach((el) => observer.observe(el));
 })
+
 setImgs();

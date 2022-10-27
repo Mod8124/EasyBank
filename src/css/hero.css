@@ -72,6 +72,7 @@
     color:hsl(0, 0%, 100%);
     background: #F8FFE8;
     max-width: 200px;
+    cursor: pointer;
     background: linear-gradient(to right, hsl(136, 65%, 51%) 0%, hsl(192, 70%, 51%) 70%, hsl(192, 70%, 51%) 100%);
 }
 
